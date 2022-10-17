@@ -1,0 +1,6 @@
+types of recursion
+1.Head recursion =>Every operation can perform after the returning time is called head recursion
+2.Tail recursion=>Every operation can perform at the calling time is called tail recursion 
+3.Tree recursion => 
+4.Indirect recursion
+5.Nested recursion

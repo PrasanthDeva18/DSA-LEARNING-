@@ -32,5 +32,13 @@ int main() {
     
     printf("\n%d", b[2]);
 
+      //size of pointer variable
+    
+    int *aa; //8
+    char *bb; //8 16bit compiler in pointer variable has 8 is the default size
+    
+    printf("%d\n %d", sizeof(aa), sizeof(bb));
+
+
     return 0;
 }

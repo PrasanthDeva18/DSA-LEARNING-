@@ -1,0 +1,72 @@
+What is DATA?
+
+data is an integral part of our application or program.
+
+what is Program?
+
+Program is an set of instruction which perform operation on data.
+
+Data structure, Data Warehouse, Database, Big Data.
+
+What is Data structure?
+arrangement of collection of data items, that they can utilized effecitently.
+for the operation on the data effectively.
+
+inside the memory during the execution of program.
+
+how data structures uses?
+example
+
+if i click to open the ms word, it will be brought the prog file in main memory and they need doc as well that also brought in main memroy
+
+databases:-
+//ecommerce 
+arrange the data in some relational model, in the permenent storage 
+
+
+Big Data:-
+using the large data, to take desicion or study is caller big data.
+
+operational data  - they can use daily
+
+legacy data - if required we can use it, historical array of disc - data warehouse
+
+Static Memory vs Dynamic Memory Allocation
+
+
+memory for 64kb for this entire lesson.
+
+in c and c++ ->  number of bytes taken by the variables depends on the computer hardware or compiler
+
+
+in memory allocation -> 
+
+static - how many memory need for the function decided at compile time or before runtime is called static memory allocation . 
+if program start it will create the activation frame in stack.
+size of the memory will be decided in compile time only.
+
+Dynamic Memory Allocation ->
+
+term heap will be used for orgainzed or unorganized things
+
+heap memory treated like resource, when they required use the heap
+
+program cant directly access heap memory
+
+eg :- printer
+
+using the pointer to access heap memory
+
+loss of memory is called memory leak.
+
+int main() {
+    int *p;
+    p= new int[5];
+    p = (int *)malloc(sizeof(int) * 5);
+
+    delete []p; // c++
+    free(p);
+    p=NULL;
+
+}
+

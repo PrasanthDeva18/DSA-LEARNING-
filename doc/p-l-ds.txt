@@ -1,0 +1,32 @@
+//Physical DS 
+//Logical DS
+
+Physical -> array and linkedlist -> why??
+Logical - stack, queue, tree, graph and hash table.
+
+linear - stack , queue
+non-linear - tree, graph
+tabular - hashing
+
+
+logical data structure - implemented using physical ds
+
+data type?
+
+representation of data 
+operation on data 
+
+eg :- 
+int x;
+
+in memory  :- 
+
+integer will represent 2bytes
+ total 16 bit 
+
+ 1 bit will be allocated for signed bit it will allow postive or negativee
+
+ reamining 15 allow any value.
+
+
+
